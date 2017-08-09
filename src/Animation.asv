@@ -1,0 +1,13 @@
+clc;
+clear;
+x = csvread('trafficX.csv');
+
+path = animatedline('LineStyle',none,'Marker','.');
+set(gca,'XLim',[-18 101],'YLim',[0 2]);
+hold on;
+
+for i=1:size(x,1)
+    addpoints(path,x
+               
+    end
+    
